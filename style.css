@@ -1,0 +1,33 @@
+body {
+  font-family: "Alfa Slab One", cursive;
+}
+#snapshot:hover {
+  background-color: blueviolet;
+}
+canvas {
+  animation-name: whatever;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  border: black 5px solid;
+}
+
+@keyframes whatever {
+  from {
+    box-shadow: 1px 1px 100px blue;
+  }
+  to {
+    box-shadow: 100px 100px 10000px blueviolet;
+  }
+  from {
+    box-shadow: -100px -100px 10000px lightblue;
+  }
+  to {
+    border: 10px double black;
+  }
+  from {
+    box-shadow: -100px -100px 10000px rgb(7, 16, 97);
+  }
+  to {
+    border: 5px dotted black;
+  }
+}
